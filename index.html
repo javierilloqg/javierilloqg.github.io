@@ -62,7 +62,7 @@
                     <h2 class="mb-5">Experiencia</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Desarrollo de hardware</h3>
+                            <h3 class="mb-0">Working Student: Desarrollo de hardware</h3>
                             <div class="subheading mb-3">eesy-innovation GmbH</div>
                             <p>
                                 <ul>
@@ -105,16 +105,25 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Diciembre 2017 - Julio 2021</span></div>
                     </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Redactor de blogs</h3>
+                            <div class="subheading mb-3">ACFOTOVOLTAICA</div>
+                            <p>
+                                Elaboración de entradas de blog sobre energía solar, baterías y energías renovables
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Marzo 2021</span></div>
+                    </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Tutor de equipo de robótica</h3>
+                            <h3 class="mb-0">Tutor y responsable de equipo de robótica</h3>
                             <div class="subheading mb-3">Programming in School</div>
                             <p>
                                 Concurso organizado por la empresa <i>Programming in School</i> en el edificio Caja Granada. Cuarto puesto.
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Mayo 2019</span></div>
-                    </div>
                 </div>
             </section>
             <hr class="m-0" />
@@ -146,7 +155,7 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Habilidades</h2>
-                    <div class="subheading mb-3">Software principal:</div>
+                    <div class="subheading mb-3">Software principal</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-git"></i></li>
                         <li class="list-inline-item"><i class="fab fa-github"></i></li>
@@ -160,6 +169,34 @@
                         <li class="list-inline-item"><i class="fab fa-slack"></i></li>
                         <li class="list-inline-item"><i class="fab fa-telegram"></i></li>
                     </ul>
+                    <div class="subheading mb-3">Software y habilidades extra</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Diseño de controladores digitales con Matlab
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Diseño de sistemas digitales en FPGA mediante <i>Quartus II</i> y lenguaje VHDL
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Programación de PLC's con la herramienta <i>TIA Portal</i>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Representación del estado de una planta industrial con software <i>SCADA</i>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Diseño de hardware (esquemáticos y placas PCB) con KiCad y Altium
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Domótica: <i>Home Assistant</i>, <i>KNX</i>, <i>Tasmota</i>, <i>Mosquitto</i>, <i>Grafana</i>
+                        </li>
+                    </ul>
+                    <br>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
                         <li>
@@ -189,6 +226,10 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-calculator"></i></span>
                             Matlab
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fab fa-markdown"></i></span>
+                            Markdown
                         </li>
                     </ul>
                 </div>
@@ -224,51 +265,57 @@
                             restante de las mascarillas, avisando visualmente de cuando debería de dejar de usarse. <br>
                         <i class="fab fa-github "></i><a href="https://github.com/javierilloqg/tempo_mascarillas">Enlace del proyecto</a>
                         </li>
+                    </ul>
+                    <br>
+                    <div class="subheading mb-3">Estación meteorológica con aplicación móvil</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Proyecto realizado para la asignatura Procesadores Integrados del Grado de Ingeniería Electrónica Industrial. En este proyecto, se realizó
+                            mediante un microcontrolador ESP32, una pequeña estación meteorológica que recogía temperatura y humedad de la habitación, y los datos se muestran
+                            en una pantalla OLED y a la par eran transmitidos mediante WiFi o Bluetooth BLE a una aplicación móvil desarrollada con la API de la 
+                            plataforma <i>Blynk</i>. <br>
+                        <i class="fab fa-github "></i><a href="https://github.com/javierilloqg/MeteOS">Enlace del proyecto</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="subheading mb-3">Alarma con notificación a aplicación móvil</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Empleando parte del código del proyecto anterior, elaboré una pequeña alarma con sensor de movimiento PIR que detectaba con precisión movimientos y
+                            presencia de personas en una habitación cuando estaba armada. A su vez, una vez detectada a la persona en cuestión, emitía un aviso a la apliación desarrollada
+                            con <i>Blynk</i>. <br>
+                        <i class="fab fa-github "></i><a href="https://github.com/javierilloqg/Alarma">Enlace del proyecto</a>
+                        </li>
+                    </ul>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <h2 class="mb-5">Cursos y certificaciones</h2>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
+                            Curso de lenguaje de programacón Python en la plataforma <i>EventEX</i> (xbbfLf4U7c)
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
+                            Curso B2 lengua inglesa en <i>Centro de Lenguas Modernas</i>, Granada.
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                            Curso de formación Makeblock por la empresa <i>Programming in School</i>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                            Workshop Altium Designer 2019</i>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
+                            Permiso de conducir B: ocho años de antigüedad</i>
                         </li>
                     </ul>
                 </div>
