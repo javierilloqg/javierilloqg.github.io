@@ -41,9 +41,10 @@
                     <h1 class="mb-0">
                         Javier
                         <span class="text-primary">Quesada</span>
+                        <span class="text-primary">Galbán</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Contact ·
+                        Contacto ·
                         <a href="mailto:javiquesadagalban@gmail.com">javiquesadagalban@gmail.com</a>
                     </div>
                     <p class="lead mb-5">¡Hola! Bienvenido a mi página web. Mi nombre es Javier Quesada y soy un apasionado de la tecnología y de la electrónica. Maker. Me encanta realizar proyectos tanto de hardware como de software con microcontroladores. Tengo facilidad de la hora de aprender y siempre me gusta conocer y adquirir nuevos conocimientos de cualquier ámbito.</p>
@@ -145,27 +146,49 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Habilidades</h2>
-                    <div class="subheading mb-3">Lenguajes de programación y utilidades</div>
+                    <div class="subheading mb-3">Software principal:</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-git"></i></li>
                         <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bitbucket"></i></li>
                         <li class="list-inline-item"><i class="fab fa-jenkins"></i></li>
                         <li class="list-inline-item"><i class="fab fa-jira"></i></li>
                         <li class="list-inline-item"><i class="fab fa-linux"></i></li>
                         <li class="list-inline-item"><i class="fab fa-windows"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-markdown"></i></li>
                         <li class="list-inline-item"><i class="fab fa-r-project"></i></li>
                         <li class="list-inline-item"><i class="fab fa-raspberry-pi"></i></li>
                         <li class="list-inline-item"><i class="fab fa-slack"></i></li>
                         <li class="list-inline-item"><i class="fab fa-telegram"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
                     </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
                             Desarrollo Ágil (Agile) & Scrum
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="subheading mb-3">Lenguajes de programación</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fab fa-python"></i></span>
+                            Python
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fab fa-cuttlefish"></i></span>
+                            C, C++
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fab fa-windows"></i></span>
+                            .NET
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fab fa-html5"></i></span>
+                            HTML5
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-calculator"></i></span>
+                            Matlab
                         </li>
                     </ul>
                 </div>
@@ -178,13 +201,29 @@
                     <p>
                         En esta pequeña sección quiero mostrar brevemente mis proyectos personales y definir un poco en que consisten.
                     </p>
-                    <p class="mb-0">
+                    <br>
+                    <div class="subheading mb-3">Programador inteligente con conexión a la REE</div>
+                    <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Programador digital con obtención de consumo de corriente mediante API de la REE (Real Eléctrica Española)
-                            
+                            Este prototipo es capaz de conectarse directamente a la API de la <b><i>Real Eléctrica Española</i></b> para obtener de forma exacta
+                            el precio en cada tramo horario y mostrarla, junto con su precio en una pantalla LCD 1602. Actualmente el firmware está desarrollado 
+                            en lenguaje MicroPython, ya que el acceso a API's y tratamiento de datos es muy sencillo, es liviano y rápido en procesadores como el
+                            usado en este proyecto, el ESP32. <br>
+                        <i class="fab fa-github"></i> (Actualmente en pruebas)
                         </li>
-                    </p>
+                    </ul>
+                    <br>
+                    <div class="subheading mb-3">Contador de tiempo de vida de mascarillas</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            La motivación de este pequeño proyecto, ha sido la actual pandemia provocada por la COVID-19. Las mascarillas, tanto quirúrgicas como
+                            FFP2 tienen una duración establecida a cuatro y ocho horas respectivamente. Mediante el uso de un microcontrolador Arduino, junto con
+                            una pantalla OLED de 128x64 píxeles de resolución y <i>switches</i> se ha desarrolado un pequeño prototipo que nos establece el tiempo
+                            restante de las mascarillas, avisando visualmente de cuando debería de dejar de usarse. <br>
+                        <i class="fab fa-github "></i><a href="https://github.com/javierilloqg/tempo_mascarillas">Enlace del proyecto</a>
+                        </li>
                 </div>
             </section>
             <hr class="m-0" />
